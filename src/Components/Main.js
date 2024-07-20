@@ -33,7 +33,7 @@ const Main = () => {
   return (
     <Container>
       {loggedInUser ? (
-          <ReportComponent />
+          <Operacion />
         )
        : (
         <form onSubmit={handleLogin}>
