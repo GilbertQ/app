@@ -160,8 +160,8 @@ const Operacion = () => {
     <h2>Grafico de Barras</h2>
     <Bar data={BarData}></Bar>
   </div>
-  <div className="chart-container">
-    <h2>Grafico de Pastel</h2>
+  <div className="chart-container item">
+  <div class="item"><h2>Grafico de Pastel</h2></div>
     <Pie data={PiesData}></Pie>
   </div>
 </div>

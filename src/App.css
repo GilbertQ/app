@@ -46,3 +46,11 @@
 .chart-container h2 {
   align-self: flex-end;
 }
+
+.item {
+  width: 80px;
+  height: 80px;
+  background-color: green;
+  float: right;
+  margin: 10px;
+}

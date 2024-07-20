@@ -33,12 +33,9 @@ const Main = () => {
   return (
     <Container>
       {loggedInUser ? (
-        loggedInUser === 'user1' ? (
-          <Operacion />
-        ) : (
           <ReportComponent />
         )
-      ) : (
+       : (
         <form onSubmit={handleLogin}>
           <Typography variant="h4">Login</Typography>
           <TextField label="Username" name="username" fullWidth margin="normal" />
